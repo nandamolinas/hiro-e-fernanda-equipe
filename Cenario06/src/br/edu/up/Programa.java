@@ -6,5 +6,6 @@ public class Programa {
     public static void main(String[] args) {
         Menu menu = new Menu();
         menu.exibirMenu();
+        //Programa chama a classe view menu
     }
 }
