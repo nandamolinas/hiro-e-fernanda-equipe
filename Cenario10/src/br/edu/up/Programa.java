@@ -11,5 +11,6 @@ public class Programa {
         Scanner scanner = new Scanner(System.in);
         Menu.processarEscolha(controller);
         scanner.close(); 
+        //programa chama a classe scanner
     }
 }
