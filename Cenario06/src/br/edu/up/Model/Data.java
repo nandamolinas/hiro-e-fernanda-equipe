@@ -73,4 +73,8 @@ public class Data {
             throw new IllegalArgumentException("Formato de data e hora invalido.");
         }
     }
-}
+}   
+
+/* String dataString = "2024-05-17 10:04";
+DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
+LocalDateTime dateTime = LocalDateTime.parse(dataString, formatter); */

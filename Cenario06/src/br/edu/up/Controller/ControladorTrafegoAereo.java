@@ -70,6 +70,6 @@ public class ControladorTrafegoAereo {
                 return comissario;
             }
         }
-        return null; // Retorna null se não encontrar o comissário com o RG fornecido
+        return null; // se não encontrar o comissário 
     }
 }

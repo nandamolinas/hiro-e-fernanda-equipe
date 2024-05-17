@@ -2,7 +2,7 @@ package br.edu.up.View;
 
 import java.util.Scanner;
 
-import br.edu.up.Controller.ControladorTrafegoAereo;
+import br.edu.up.Controller.*;
 import br.edu.up.Model.*;
 
 public class Menu {
@@ -82,7 +82,7 @@ public class Menu {
         System.out.println("Digite o identificadir da bagagem do passageiro:");
         String identificadorBagagem = scanner.nextLine();
 
-        System.out.println("Digite as informacoes da passagem do passageiro:");
+        System.out.println("Digite as informacoes da passagem: # do assento, classe e data (dd/mm/aaaa hh:mm):");
         Passagem passagem = Passagem.criarPassagem(scanner.nextLine());
 
         System.out.println("Digite as informacoes da aeronave do passageiro:");
