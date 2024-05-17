@@ -8,5 +8,7 @@ public class Programa {
         cadastroClientes cadastro = new cadastroClientes();
         Menu menu = new Menu(cadastro);
         menu.exibirMenuPrincipal();
+
+        //Programa chama a classe menu
     }
 }
