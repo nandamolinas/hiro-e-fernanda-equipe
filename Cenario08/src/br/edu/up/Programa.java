@@ -6,5 +6,7 @@ public class Programa {
     public static void main(String[] args) {
         agendaContatos agendaContatos = new agendaContatos();
         agendaContatos.iniciar();
+
+        // Programa chama a classe agendaContatos
     }
 }
