@@ -15,7 +15,7 @@ public class Programa {
             System.out.println("5 - Sair");
 
             int opcao = scanner.nextInt();
-            scanner.nextLine(); // Consumir a quebra de linha
+            scanner.nextLine(); 
 
             if (opcao == 1) {
                 System.out.print("Nome do mês: ");
@@ -23,7 +23,7 @@ public class Programa {
 
                 System.out.print("Dia do mês: ");
                 int diaMes = scanner.nextInt();
-                scanner.nextLine(); // Consumir a quebra de linha
+                scanner.nextLine(); 
 
                 System.out.print("Pessoa: ");
                 String pessoa = scanner.nextLine();
