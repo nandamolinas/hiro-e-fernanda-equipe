@@ -7,5 +7,5 @@ public class Programa {
         Menu menu = new Menu();
         menu.exibirMenu();
     }
-}
+} //chama a classe menu
 
